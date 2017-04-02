@@ -1,4 +1,5 @@
 class Contact
+  Rails.logger.debug "\033[1;34;40m[DEBUG]\033[0m " + 'Class object'
   include ActiveModel::Model
   attr_accessor :name, :string
   attr_accessor :email, :string
